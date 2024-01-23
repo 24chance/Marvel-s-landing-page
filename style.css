@@ -1,0 +1,200 @@
+
+*{
+    font-family: sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    font-family: Consolas, monospace;
+}
+
+body{
+    background: url(images/bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+/* ------------------- Nav Css ------------------------- */
+nav{
+    background: rgb(0, 0, 0, 0.8);
+    padding: 12px;
+    position: sticky;
+    top: 0;
+}
+
+nav a{
+    color: rgb(184, 182, 182);
+    padding: 12px;
+    font-size: 15px;
+}
+
+nav a:hover{
+    color: white;
+    cursor: pointer;
+}
+
+
+
+/* ------------------- Main Css ------------------------- */
+
+main{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.genre{
+    color: rgb(188, 217, 245);
+    margin: 10px 0;
+    font-size: 13px;
+}
+
+.box{
+    color: black;
+    height: fit-content;
+    border-radius: 5px;
+}
+
+.box.left{
+    flex: 6;
+    padding: 0;
+}
+
+.box.right{
+    flex: 2;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    height: fit-content;
+}
+
+.header h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(240, 225, 225);
+}
+
+.header button{
+    padding: 12px;
+    background-color: rgb(129, 97, 97);
+    border: none;
+    border-radius: 5px;
+}
+
+.header button:hover{
+    background-color: rgb(233, 188, 188);
+    cursor: pointer;
+}
+
+.description{
+    color: rgb(240, 225, 225);
+    font-size: 14px;
+    margin: 25px 0;
+}
+
+.stitle h3{
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    margin: 10px 0;
+}
+
+.stitle hr{
+    border:1px solid rgba(150, 182, 146, 0.596);
+}
+
+.genres{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 30px 45px 0;    
+}
+
+.genres div p{
+    color: white;   
+    font-size: 14px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.news img{
+    width: 100%;
+    margin: 10px 0 0 0;
+}
+
+.news h2{
+    color: rgb(204, 198, 233);
+    font-size: 20px;
+}
+
+.news p{
+    margin: 5px;
+}
+
+.news .read{
+    color: rgb(204, 198, 233);
+    font-size: 14px;
+    margin: 10px 5px;
+    cursor: pointer;
+}
+
+.images{
+    display: flex;
+padding: 12px;
+gap: 3px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.images img{
+    width: 150px;
+    margin-top: 10px;
+    border-radius: 4px;
+    object-fit: cover;
+    height: 220px;
+}
+.images img:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+/* ------------------- Footer Css ------------------------- */
+
+footer{
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 12px;
+}
+footer center{
+    color: white;
+    padding: 12px;
+}
+
+
+/* ------------------- Footer Css ------------------------- */
+
+form{
+    max-width: 450px;
+    padding: 20px;
+    margin: 120px auto;
+    background-color: white;
+}
+.inputs{
+    width: 100%;
+    padding: 10px;
+    margin: 10px auto;
+    border: 1px solid lightgray;
+}
+
+.btn{
+    width: 100%;
+    padding: 12px;
+    background-color: rgb(129, 97, 97);
+    border: 0px solid lightgray;
+    color: white;
+}
+
+.btn:hover{
+    background-color: rgb(233, 188, 188);
+    cursor: pointer;
+    color: black;
+}
+
